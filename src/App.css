@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  font-family: "Roboto Condensed", sans-serif;
+
+  font-style: normal;
+}
+.react-select__control {
+  background-color: #172554 !important;
+  border-radius: 6px !important;
+}
+.react-select__option {
+  color: rgb(30, 29, 29) !important;
+  border-color: rgb(30, 29, 29) !important;
+}
+.react-select__placeholder {
+  color: white !important;
+}
+.react-select__single-value {
+  color: white !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .react-select__control {
+    background-color: rgb(243, 238, 238) !important;
+  }
+  .react-select__option {
+    color: black !important;
+  }
+  .react-select__placeholder {
+    color: rgb(152, 146, 146) !important;
+  }
+  .react-select__single-value {
+    color: rgb(152, 146, 146) !important;
+  }
+}
