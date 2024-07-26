@@ -1,14 +1,63 @@
-import React from 'react';
-import { Commet } from 'react-loading-indicators'; // Ensure this import is correct based on your package
-
-const Loading = () => {
+const LoadingIndicator = () => {
   return (
-    <div className="flex items-center justify-center ">
-      <div className="w-full max-w-xs m-auto  bg-white rounded-lg ">
-      <Commet color="rgb(49,46,129)" size="large" text="" textColor="" />
-      </div>
-    </div>
-  );
-};
+    <div className='w-[90%] m-auto'>
+      <div className="flex flex-wrap -m-4">
+        <div className="p-4 md:w-1/4">
+          <div className="h-full border-2 border-gray-200 rounded-lg overflow-hidden">
+            <div className="lg:h-48 bg-gray-400 md:h-36 w-full object-cover object-center"></div>
+            <div className="p-6">
+              <h2 className="bg-gray-400 animate-pulse h-4 w-1/4 mb-2"></h2>
+              <h1 className="w-1/2 mb-4 h-6 animate-pulse bg-gray-500"></h1>
+              <p className="leading-relaxed mb-3 w-full h-3 animate-pulse bg-gray-400"></p>
+              <p className="leading-relaxed mb-3 w-2/3 h-3 animate-pulse bg-gray-400"></p>
+              <p className="leading-relaxed mb-3 w-1/2 h-3 animate-pulse bg-gray-400"></p>
 
-export default Loading;
+            </div>
+          </div>
+        </div>
+        <div className="p-4 md:w-1/4">
+          <div className="h-full border-2 border-gray-200 rounded-lg overflow-hidden">
+            <div className="lg:h-48 bg-gray-400 md:h-36 w-full object-cover object-center"></div>
+            <div className="p-6">
+              <h2 className="bg-gray-400 animate-pulse h-4 w-1/4 mb-2"></h2>
+              <h1 className="w-1/2 mb-4 h-6 animate-pulse bg-gray-500"></h1>
+              <p className="leading-relaxed mb-3 w-full h-3 animate-pulse bg-gray-400"></p>
+              <p className="leading-relaxed mb-3 w-2/3 h-3 animate-pulse bg-gray-400"></p>
+              <p className="leading-relaxed mb-3 w-1/2 h-3 animate-pulse bg-gray-400"></p>
+
+            </div>
+          </div>
+        </div>
+        <div className="p-4 md:w-1/4">
+          <div className="h-full border-2 border-gray-200 rounded-lg overflow-hidden">
+            <div className="lg:h-48 bg-gray-400 md:h-36 w-full object-cover object-center"></div>
+            <div className="p-6">
+              <h2 className="bg-gray-400 animate-pulse h-4 w-1/4 mb-2"></h2>
+              <h1 className="w-1/2 mb-4 h-6 animate-pulse bg-gray-500"></h1>
+              <p className="leading-relaxed mb-3 w-full h-3 animate-pulse bg-gray-400"></p>
+              <p className="leading-relaxed mb-3 w-2/3 h-3 animate-pulse bg-gray-400"></p>
+              <p className="leading-relaxed mb-3 w-1/2 h-3 animate-pulse bg-gray-400"></p>
+
+            </div>
+          </div>
+        </div>
+        <div className="p-4 md:w-1/4">
+          <div className="h-full border-2 border-gray-200 rounded-lg overflow-hidden">
+            <div className="lg:h-48 bg-gray-400 md:h-36 w-full object-cover object-center"></div>
+            <div className="p-6">
+              <h2 className="bg-gray-400 animate-pulse h-4 w-1/4 mb-2"></h2>
+              <h1 className="w-1/2 mb-4 h-6 animate-pulse bg-gray-500"></h1>
+              <p className="leading-relaxed mb-3 w-full h-3 animate-pulse bg-gray-400"></p>
+              <p className="leading-relaxed mb-3 w-2/3 h-3 animate-pulse bg-gray-400"></p>
+              <p className="leading-relaxed mb-3 w-1/2 h-3 animate-pulse bg-gray-400"></p>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  )
+}
+
+export default LoadingIndicator

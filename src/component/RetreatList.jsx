@@ -1,7 +1,6 @@
-
 import { useState, useEffect } from "react";
 import RetreatItemCard from "./RetreatItemCard";
-import Loading from "./LoadingIndicator";
+import LoadingIndicator from "./LoadingIndicator";
 import Pagination from "./Pagination";
 import Select from "react-select";
 
@@ -179,7 +178,7 @@ const RetreatList = () => {
       </div>
 
       {loading ? (
-        <Loading />
+        <LoadingIndicator />
       ) : (
         <>
           <div className="p-3 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
