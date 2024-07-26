@@ -20,18 +20,30 @@ Visit: https://66a3165e1c1731188718f825--super-empanada-80e384.netlify.app/
 
 ![Screenshot (59)](https://github.com/user-attachments/assets/a7e16fa7-35dc-4fc2-a64a-fa2b6421ec3c)
 
+
 # Home Page Tablet View
+<p align="center" width="100%">
+<table>
+  <tr>
+    <td valign="top"><img width="398" alt="image" src="https://github.com/user-attachments/assets/3f13a05f-9b36-4c7b-9c9f-8d58bf06460f"></td>
+    <td valign="top"><img width="398" alt="image" src="https://github.com/user-attachments/assets/ec2b251c-2e94-44ba-89fd-a8fca5aa3b94"></td>
+    <td valign="top"><img width="398" alt="image" src="https://github.com/user-attachments/assets/60334da6-09a8-4177-b833-598a9b9cd205"></td>
 
-![Screenshot (60)](https://github.com/user-attachments/assets/3f13a05f-9b36-4c7b-9c9f-8d58bf06460f)
+  </tr>
+</table>
+</p>
 
-![Screenshot (61)](https://github.com/user-attachments/assets/ec2b251c-2e94-44ba-89fd-a8fca5aa3b94)
-
-![Screenshot (62)](https://github.com/user-attachments/assets/60334da6-09a8-4177-b833-598a9b9cd205)  
 
 # Home Page Mobile View
-![Screenshot (63)](https://github.com/user-attachments/assets/5522d7e6-ade4-483b-ae2b-4f6d967e32b6) 
-![Screenshot (64)](https://github.com/user-attachments/assets/2e793433-61e7-44df-bb23-ce102704b2b3) 
-![Screenshot (65)](https://github.com/user-attachments/assets/fbbe527d-8164-4b08-934f-5ad8a91add4f)
+<p align="center" width="100%">
+<table>
+  <tr>
+    <td valign="top"><img width="398" alt="image" src="https://github.com/user-attachments/assets/5522d7e6-ade4-483b-ae2b-4f6d967e32b6"></td>
+    <td valign="top"><img width="398" alt="image" src="https://github.com/user-attachments/assets/2e793433-61e7-44df-bb23-ce102704b2b3"></td>
+    <td valign="top"><img width="398" alt="image" src="https://github.com/user-attachments/assets/fbbe527d-8164-4b08-934f-5ad8a91add4f"></td>
+  </tr>
+</table>
+</p>
 
 # Home Page Footer View
 ![Screenshot (66)](https://github.com/user-attachments/assets/f7ee8f98-9e3e-4115-b06c-b56ff7a960e7)
@@ -49,8 +61,8 @@ Visit: https://66a3165e1c1731188718f825--super-empanada-80e384.netlify.app/
  Mock API
 
 ## External CSS Library
->> Tailwind Css
->> Front-End Deployment - netlify
+1. Tailwind Css
+2. Front-End Deployment - netlify
 
 ### Note
 
@@ -78,12 +90,10 @@ https://github.com/preetuuppp/Wellness-Retreats-Assignment.git
 
 Step-1- Navigate to proeject directory using $cd Wellness-Retreats-Assignment
 
-Step-2- install node_modules using $cd npm install
+Step-2- install node_modules using npm install
 
 It will install some common dependencies:-
->> $npm install react-icons 
->> $npm install react-loading-indicators
-
+>> npm install react-icons 
 
 
 
