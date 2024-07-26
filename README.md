@@ -81,8 +81,8 @@ Step-1- Navigate to proeject directory using $cd alive-run-138
 Step-2- install node_modules using $cd npm install
 
 It will install some common dependencies:-
-$npm install react-icons 
-$npm install react-loading-indicators
+>> $npm install react-icons 
+>> $npm install react-loading-indicators
 
 
 
