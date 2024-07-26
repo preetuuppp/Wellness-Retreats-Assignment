@@ -76,7 +76,7 @@ https://github.com/preetuuppp/Wellness-Retreats-Assignment.git
 
 => Ok guys here are the some basic instruction before you start , If you are here you are successfully pulled the code and you are ready to type you first command in terminal.
 
-Step-1- Navigate to proeject directory using $cd alive-run-138
+Step-1- Navigate to proeject directory using $cd Wellness-Retreats-Assignment
 
 Step-2- install node_modules using $cd npm install
 
